@@ -7,7 +7,7 @@ foreach ($file in $files) {
 
     foreach ($data in $data_massive) {
         if ($data.Name -eq "Standard_B2pts_v2") {
-            $results.Add($file.Name)
+            $results.Add($file.BaseName)
         }
     }
 }
